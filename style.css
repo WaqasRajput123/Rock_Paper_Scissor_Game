@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    color: white;
+    background-color: #254D70;
+}
+
+.Game-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.rock-container, .scissor-container, .paper-container {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.rock-image, .scissor-image, .paper-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background-size: cover;
+    background-position: center;
+}
+
+.image:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 2rem;
+}
+
+.score-board p {
+    font-size: 2rem;
+    margin-left: 65px;
+}
+
+.Score {
+    display: flex;
+    justify-content: center;
+}
+
+.Game-result {
+    height: 70px;
+    width: 250px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 44%;
+    margin-top: 60px;
+    border: 2px solid transparent;
+}
+
+.Game-result:hover {
+    border: 3px solid red;
+}
+
+.Game-result p {
+    font-size: 2rem;
+}
+
+
+
